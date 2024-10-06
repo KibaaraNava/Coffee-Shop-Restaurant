@@ -1,0 +1,149 @@
+* {
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-container{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(public/images/coffeebackground.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+span{
+    color: brown;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    width: 100%;
+}
+.nav-bar .title{
+    color: beige;
+    font-size: 50px;
+    font-weight: 900;
+}
+.nav-bar p{
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 50px;
+    color: beige;
+    font-size: 20px;
+    font-weight: 400;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 15px;
+    transition: 0.5s ease;
+}
+.menu li a:hover{
+    color: brown;
+    padding: 10px 20px;
+    border: solid 2px;
+    border-radius: 12px;
+}
+.home{
+    height: 400px;
+    padding: 50px;
+}
+.home p{
+    color: beige;
+    font-size: 25px;
+    padding: 10px 0;
+}
+.title-1{
+    font-size: 45px;
+    color: beige;
+    font-weight: 500;
+}
+.home button{
+    height: 50px;
+    color: beige;
+    font-size: 19px;
+    background-color: gray;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.home button:hover{
+    background: none;
+    border: 2px solid brown;
+}
+/*.header-container{
+    background-image: url(public/images/coffeelogo.jpeg);
+    width: 100%;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}*/
+.home-navbar-container{
+    background-color: gray;
+}
+/*header, footer{
+    background-color: brown;
+    color: beige;
+    width: 100%;
+    padding: 30px 0;
+    background-image: url(public/images/coffeelogo.jpeg);
+    background-position: center;
+    background-size: cover;
+}*/
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 22px;
+    padding: 30px 0;
+}
+header h1{
+    font-size: 20px;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); color:#efeb0c;
+  }
+  .carousel {
+    border: hidden;
+  }
+  h1, h2, h3 {
+    font-family: "Lobster", cursive;
+   }
+   body {
+    font-size: large;
+    font-family:"Poppins";
+    background-color: whitesmoke;
+}
+.modal-header{
+    background-color: gray;
+    color: beige;
+}
+.footer {
+    border:20px hidden;
+    text-align:center;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    padding: 100px 0; 
+    border-bottom: 0%;
+    position: relative;
+}
+.trademark {
+    padding: 20px;
+     margin:5 px;
+      text-align: center;
+}
